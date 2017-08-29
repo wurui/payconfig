@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <payconfig>
+        <name>
+            notebook
+        </name>
+        <type>
+            alipay
+        </type>
+        <biz_id>
+            laptop
+        </biz_id>
+        <secret>
+            watch
+        </secret>
+        <return_url>
+            laptop
+        </return_url>
+        <notify_url>
+            laptop
+        </notify_url>
+        <site_url>
+            camera
+        </site_url>
+        <site_name>
+            notebook
+        </site_name>
+        <appid>
+            notebook
+        </appid>
+    </payconfig>
+    </data>
+</root>
