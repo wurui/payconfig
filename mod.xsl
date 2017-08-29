@@ -9,7 +9,7 @@
             <xsl:variable name="payconf" select="data/payconfig"/>
             <form class="J_mainform">
                 <xsl:if test="$payconf/_id">
-                    <input type="hidden" name="_id" value="$payconf/_id"/>
+                    <input type="hidden" name="_id" value="{$payconf/_id}"/>
                 </xsl:if>
                 <ul>
                     <li>
