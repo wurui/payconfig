@@ -4,6 +4,9 @@
     <env>
         <domain>local</domain>
     </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
     <p>
         <title>demo page</title>
         <desc>this is deme page</desc>
@@ -11,34 +14,16 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <payconfig>
-        <name>
-            notebook
-        </name>
-        <type>
-            alipay
-        </type>
-        <biz_id>
-            laptop
-        </biz_id>
-        <secret>
-            watch
-        </secret>
-        <return_url>
-            laptop
-        </return_url>
-        <notify_url>
-            laptop
-        </notify_url>
-        <site_url>
-            camera
-        </site_url>
-        <site_name>
-            notebook
-        </site_name>
-        <appid>
-            notebook
-        </appid>
-    </payconfig>
+        <payconfig>
+            <name>支付宝</name>
+            <type>alipay</type>
+            <biz_id>209992223345</biz_id>
+            <secret>aldfasfdasf</secret>
+            <return_url>http://adapter.openxsl.com/</return_url>
+            <notify_url>http://adapter.openxsl.com/</notify_url>
+            <site_url>http://adapter.openxsl.com/</site_url>
+            <site_name>测试网站</site_name>
+            <appid></appid>
+        </payconfig>
     </data>
 </root>
