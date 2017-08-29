@@ -13,7 +13,7 @@
                 </xsl:if>
                 <ul>
                     <li>
-                        <select value="{$payconf/type}">
+                        <select value="{$payconf/type}" name="type">
                             <option value="alipay">支付宝</option>
                             <option value="weixin">微信支付</option>
                         </select>
