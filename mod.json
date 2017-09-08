@@ -1,6 +1,6 @@
 {
   "name": "payconfig",
   "version": "0.0.1",
-  "apiDependencies": ["payconfig"]
+  "apiDependencies": ["payconfig","options"]
 }
 

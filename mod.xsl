@@ -13,9 +13,10 @@
                 </xsl:if>
                 <ul>
                     <li>
-                        <select value="{$payconf/type}" name="type">
-                            <option value="alipay">支付宝</option>
-                            <option value="weixin">微信支付</option>
+                        <select data-value="{$payconf/type}" value="{$payconf/type}" name="type">
+                            <xsl:for-each select="data/options/i">
+                                <option value="{value}"><xsl:value-of select="text"/></option>
+                            </xsl:for-each>
                         </select>
                     </li>
                     <li>

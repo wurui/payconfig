@@ -25,5 +25,15 @@
             <site_name>测试网站</site_name>
             <appid></appid>
         </payconfig>
+        <options>
+            <i>
+                <text>支付宝</text>
+                <value>alipay</value>
+            </i>
+            <i>
+                <text>微信支付</text>
+                <value>weixin</value>
+            </i>
+        </options>
     </data>
 </root>
